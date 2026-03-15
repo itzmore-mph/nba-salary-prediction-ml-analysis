@@ -7845,7 +7845,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=qab1Qj0wQZxt">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=qab1Qj0wQZxt">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7853,117 +7853,11 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Install necessary libraries (for running locally)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Uncomment to install necessary libraries (for running locally)</span>
 
-<span class="o">%</span><span class="k">pip</span> install -U pandas numpy matplotlib seaborn scikit-learn tensorflow
+<span class="c1"># %pip install -U pandas numpy matplotlib seaborn scikit-learn tensorflow</span>
+ 
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: pandas in ./.venv/lib/python3.13/site-packages (3.0.1)
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: numpy in ./.venv/lib/python3.13/site-packages (2.4.3)
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: matplotlib in ./.venv/lib/python3.13/site-packages (3.10.8)
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: seaborn in ./.venv/lib/python3.13/site-packages (0.13.2)
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: scikit-learn in ./.venv/lib/python3.13/site-packages (1.8.0)
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: tensorflow in ./.venv/lib/python3.13/site-packages (2.21.0)
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: python-dateutil&gt;=2.8.2 in ./.venv/lib/python3.13/site-packages (from pandas) (2.9.0.post0)
-Requirement already satisfied: contourpy&gt;=1.0.1 in ./.venv/lib/python3.13/site-packages (from matplotlib) (1.3.3)
-Requirement already satisfied: cycler&gt;=0.10 in ./.venv/lib/python3.13/site-packages (from matplotlib) (0.12.1)
-Requirement already satisfied: fonttools&gt;=4.22.0 in ./.venv/lib/python3.13/site-packages (from matplotlib) (4.62.1)
-Requirement already satisfied: kiwisolver&gt;=1.3.1 in ./.venv/lib/python3.13/site-packages (from matplotlib) (1.5.0)
-Requirement already satisfied: packaging&gt;=20.0 in ./.venv/lib/python3.13/site-packages (from matplotlib) (26.0)
-Requirement already satisfied: pillow&gt;=8 in ./.venv/lib/python3.13/site-packages (from matplotlib) (12.1.1)
-Requirement already satisfied: pyparsing&gt;=3 in ./.venv/lib/python3.13/site-packages (from matplotlib) (3.3.2)
-Requirement already satisfied: scipy&gt;=1.10.0 in ./.venv/lib/python3.13/site-packages (from scikit-learn) (1.17.1)
-Requirement already satisfied: joblib&gt;=1.3.0 in ./.venv/lib/python3.13/site-packages (from scikit-learn) (1.5.3)
-Requirement already satisfied: threadpoolctl&gt;=3.2.0 in ./.venv/lib/python3.13/site-packages (from scikit-learn) (3.6.0)
-Requirement already satisfied: absl-py&gt;=1.0.0 in ./.venv/lib/python3.13/site-packages (from tensorflow) (2.4.0)
-Requirement already satisfied: astunparse&gt;=1.6.0 in ./.venv/lib/python3.13/site-packages (from tensorflow) (1.6.3)
-Requirement already satisfied: flatbuffers&gt;=25.9.23 in ./.venv/lib/python3.13/site-packages (from tensorflow) (25.12.19)
-Requirement already satisfied: gast!=0.5.0,!=0.5.1,!=0.5.2,&gt;=0.2.1 in ./.venv/lib/python3.13/site-packages (from tensorflow) (0.7.0)
-Requirement already satisfied: google_pasta&gt;=0.1.1 in ./.venv/lib/python3.13/site-packages (from tensorflow) (0.2.0)
-Requirement already satisfied: libclang&gt;=13.0.0 in ./.venv/lib/python3.13/site-packages (from tensorflow) (18.1.1)
-Requirement already satisfied: opt_einsum&gt;=2.3.2 in ./.venv/lib/python3.13/site-packages (from tensorflow) (3.4.0)
-Requirement already satisfied: protobuf&lt;8.0.0,&gt;=6.31.1 in ./.venv/lib/python3.13/site-packages (from tensorflow) (7.34.0)
-Requirement already satisfied: requests&lt;3,&gt;=2.21.0 in ./.venv/lib/python3.13/site-packages (from tensorflow) (2.32.5)
-Requirement already satisfied: setuptools in ./.venv/lib/python3.13/site-packages (from tensorflow) (82.0.1)
-Requirement already satisfied: six&gt;=1.12.0 in ./.venv/lib/python3.13/site-packages (from tensorflow) (1.17.0)
-Requirement already satisfied: termcolor&gt;=1.1.0 in ./.venv/lib/python3.13/site-packages (from tensorflow) (3.3.0)
-Requirement already satisfied: typing_extensions&gt;=3.6.6 in ./.venv/lib/python3.13/site-packages (from tensorflow) (4.15.0)
-Requirement already satisfied: wrapt&gt;=1.11.0 in ./.venv/lib/python3.13/site-packages (from tensorflow) (2.1.2)
-Requirement already satisfied: grpcio&lt;2.0,&gt;=1.24.3 in ./.venv/lib/python3.13/site-packages (from tensorflow) (1.78.0)
-Requirement already satisfied: keras&gt;=3.12.0 in ./.venv/lib/python3.13/site-packages (from tensorflow) (3.13.2)
-Requirement already satisfied: h5py&lt;3.15.0,&gt;=3.11.0 in ./.venv/lib/python3.13/site-packages (from tensorflow) (3.14.0)
-Requirement already satisfied: ml_dtypes&lt;1.0.0,&gt;=0.5.1 in ./.venv/lib/python3.13/site-packages (from tensorflow) (0.5.4)
-Requirement already satisfied: charset_normalizer&lt;4,&gt;=2 in ./.venv/lib/python3.13/site-packages (from requests&lt;3,&gt;=2.21.0-&gt;tensorflow) (3.4.5)
-Requirement already satisfied: idna&lt;4,&gt;=2.5 in ./.venv/lib/python3.13/site-packages (from requests&lt;3,&gt;=2.21.0-&gt;tensorflow) (3.11)
-Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in ./.venv/lib/python3.13/site-packages (from requests&lt;3,&gt;=2.21.0-&gt;tensorflow) (2.6.3)
-Requirement already satisfied: certifi&gt;=2017.4.17 in ./.venv/lib/python3.13/site-packages (from requests&lt;3,&gt;=2.21.0-&gt;tensorflow) (2026.2.25)
-Requirement already satisfied: wheel&lt;1.0,&gt;=0.23.0 in ./.venv/lib/python3.13/site-packages (from astunparse&gt;=1.6.0-&gt;tensorflow) (0.46.3)
-Requirement already satisfied: rich in ./.venv/lib/python3.13/site-packages (from keras&gt;=3.12.0-&gt;tensorflow) (14.3.3)
-Requirement already satisfied: namex in ./.venv/lib/python3.13/site-packages (from keras&gt;=3.12.0-&gt;tensorflow) (0.1.0)
-Requirement already satisfied: optree in ./.venv/lib/python3.13/site-packages (from keras&gt;=3.12.0-&gt;tensorflow) (0.19.0)
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: markdown-it-py&gt;=2.2.0 in ./.venv/lib/python3.13/site-packages (from rich-&gt;keras&gt;=3.12.0-&gt;tensorflow) (4.0.0)
-Requirement already satisfied: pygments&lt;3.0.0,&gt;=2.13.0 in ./.venv/lib/python3.13/site-packages (from rich-&gt;keras&gt;=3.12.0-&gt;tensorflow) (2.19.2)
-Requirement already satisfied: mdurl~=0.1 in ./.venv/lib/python3.13/site-packages (from markdown-it-py&gt;=2.2.0-&gt;rich-&gt;keras&gt;=3.12.0-&gt;tensorflow) (0.1.2)
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Note: you may need to restart the kernel to use updated packages.
-</pre>
 </div>
 </div>
 </div>
@@ -9546,7 +9440,7 @@ All transforms are fit on training data only via a Pipeline to avoid leakage.</l
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=AAXJ_8EibsQP">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=AAXJ_8EibsQP">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9559,7 +9453,7 @@ All transforms are fit on training data only via a Pipeline to avoid leakage.</l
 <span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.preprocessing</span><span class="w"> </span><span class="kn">import</span> <span class="n">OneHotEncoder</span><span class="p">,</span> <span class="n">StandardScaler</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.impute</span><span class="w"> </span><span class="kn">import</span> <span class="n">SimpleImputer</span>
 
-<span class="n">cat_cols</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">select_dtypes</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s2">"object"</span><span class="p">])</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+<span class="n">cat_cols</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">select_dtypes</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s2">"object"</span><span class="p">,</span> <span class="s2">"str"</span><span class="p">])</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
 <span class="n">num_cols</span> <span class="o">=</span> <span class="p">[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">X</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">cat_cols</span><span class="p">]</span>
 
 <span class="n">numeric_pipe</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">(</span><span class="n">steps</span><span class="o">=</span><span class="p">[</span>
@@ -9579,21 +9473,6 @@ All transforms are fit on training data only via a Pipeline to avoid leakage.</l
     <span class="p">]</span>
 <span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/var/folders/d8/jdj9dp996ps5f3y5m79s3j3m0000gn/T/ipykernel_64307/20286577.py:6: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.
-See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-select-dtypes for details on how to write code that works with pandas 2 and 3.
-  cat_cols = X.select_dtypes(include=["object"]).columns.tolist()
-</pre>
 </div>
 </div>
 </div>
@@ -10087,9 +9966,9 @@ Sanity baseline, MAE: 6.11M USD, RMSE: 9.23M USD, R2_log: -0.002
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>{'model': 'FINAL_MODEL',
- 'MAE_$': 3531760.8034616066,
- 'RMSE_$': np.float64(5130566.590844475),
- 'R2_log': 0.6149119688936255}</pre>
+ 'MAE_$': 3531760.8034616113,
+ 'RMSE_$': np.float64(5130566.590844478),
+ 'R2_log': 0.6149119688936254}</pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
@@ -11172,40 +11051,61 @@ Top 10 highest earners in test set – predictions with 90% intervals:
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="4.-Conclusions">4. Conclusions<a class="anchor-link" href="#4.-Conclusions">¶</a></h2><h3 id="4.1-Dataset-insights">4.1 Dataset insights<a class="anchor-link" href="#4.1-Dataset-insights">¶</a></h3><ul>
-<li>The dataset contains <strong>683 players</strong>, with <strong>131 rows missing season statistics</strong>, leaving <strong>552</strong> player seasons with complete metrics for modelling.</li>
-<li>Salary is <strong>strongly right-skewed</strong>, so predicting <strong><code>log1p(Salary)</code></strong> stabilizes training and reduces the influence of extreme contracts.</li>
-<li>Salary correlates most strongly with <strong>usage and availability</strong> indicators (<strong>PTS, MP, GS</strong>): teams pay for sustained contribution and reliable minutes.</li>
-<li><strong>Position</strong> shifts the salary distribution, so <code>Pos</code> as a categorical feature adds meaningful context beyond raw box-score totals.</li>
+<li>The dataset contains <strong>683 NBA players</strong>, with <strong>131 observations missing season statistics</strong>, leaving <strong>552 player seasons</strong> with complete metrics available for modelling.</li>
+<li>Salary shows a <strong>strong right-skewed distribution</strong>, with a small number of extremely large contracts. Predicting <strong><code>log1p(Salary)</code></strong> stabilizes model training and reduces the influence of extreme outliers.</li>
+<li>Salary correlates most strongly with <strong>usage and availability indicators</strong> such as <strong>points (PTS), minutes played (MP), and games started (GS)</strong>. This aligns with the intuition that teams primarily reward players who consistently contribute on the court.</li>
+<li><strong>Position</strong> shifts the salary distribution, indicating that positional role influences market value. Including <strong><code>Pos</code> as a categorical feature</strong> therefore provides meaningful context beyond raw box-score totals.</li>
 </ul>
-<h3 id="4.2-Model-recommendation-to-the-client">4.2 Model recommendation to the client<a class="anchor-link" href="#4.2-Model-recommendation-to-the-client">¶</a></h3><ul>
-<li>Multiple scikit-learn regressors and several MLP neural networks were benchmarked (varying activation functions and optimizers).</li>
-<li>The recommended model is the <strong>RandomForest regressor</strong>: best cross-validated MAE among all classical models, confirmed with a final held-out test evaluation.</li>
-<li>Test-set results: <strong>MAE ≈ 3.53M USD</strong>, RMSE ≈ 5.13M USD, R²_log ≈ 0.615.</li>
-<li>Section 3.9 provides <strong>90% prediction intervals</strong> (from RF tree-variance) so the finance team can negotiate with a range, not just a single number.</li>
+<h3 id="4.2-Model-recommendation-to-the-client">4.2 Model recommendation to the client<a class="anchor-link" href="#4.2-Model-recommendation-to-the-client">¶</a></h3><p>Multiple machine learning approaches were evaluated, including several <strong>scikit-learn regressors</strong> (baseline models, linear models, tree ensembles, SVR, and KNN) and <strong>MLP neural networks</strong> with different activation functions and optimizers.</p>
+<p>The model recommended to the finance team is a <strong>RandomForest regressor</strong>, which achieved the <strong>lowest cross-validated MAE among the classical models</strong> and maintained strong performance on the held-out test set.</p>
+<p><strong>Test set performance</strong></p>
+<ul>
+<li><strong>MAE:</strong> about <strong>3.53M USD</strong></li>
+<li><strong>RMSE:</strong> about <strong>5.13M USD</strong></li>
+<li><strong>R² (log scale):</strong> about <strong>0.615</strong></li>
 </ul>
-<h3 id="4.3-Residual-diagnostics-(Sections-3.6.1-%E2%80%93-3.6.2)">4.3 Residual diagnostics (Sections 3.6.1 – 3.6.2)<a class="anchor-link" href="#4.3-Residual-diagnostics-(Sections-3.6.1-%E2%80%93-3.6.2)">¶</a></h3><ul>
-<li>The residual distribution is centred near zero: <strong>no major global bias</strong>.</li>
-<li>The heteroscedasticity plot reveals error variance grows with predicted salary: predictions are less reliable for high earners.</li>
-<li>Error-by-cohort analysis (Section 3.6.2) confirms this — the top-33% salary tier has materially higher MAE and is consistently <strong>underestimated</strong>, because max-contract factors are absent from the features.</li>
+<p>Rather than presenting a single predicted salary, the model output should be communicated as a <strong>range</strong>. Section 3.9 therefore provides <strong>90% prediction intervals</strong>, allowing the finance team to anchor negotiations around a realistic market band rather than a single estimate.</p>
+<h3 id="4.3-Residual-diagnostics-(Sections-3.6.1-%E2%80%93-3.6.2)">4.3 Residual diagnostics (Sections 3.6.1 – 3.6.2)<a class="anchor-link" href="#4.3-Residual-diagnostics-(Sections-3.6.1-%E2%80%93-3.6.2)">¶</a></h3><p>Residual analysis reveals several important characteristics of the model:</p>
+<ul>
+<li>The residual distribution is <strong>centered close to zero</strong>, indicating <strong>no major systematic bias</strong> in predictions.</li>
+<li>The heteroscedasticity plot shows that <strong>prediction error increases with predicted salary</strong>, meaning the model becomes less reliable for very highly paid players.</li>
+<li>Error-by-cohort analysis confirms that the <strong>highest salary tier has larger prediction errors and tends to be underestimated</strong>, which likely reflects the absence of contract-related variables such as max contracts or cap constraints.</li>
 </ul>
-<h3 id="4.4-SHAP-interpretability-(Section-3.7.1)">4.4 SHAP interpretability (Section 3.7.1)<a class="anchor-link" href="#4.4-SHAP-interpretability-(Section-3.7.1)">¶</a></h3><ul>
-<li>SHAP values confirm <strong>MP, GS, and PTS</strong> as the dominant salary drivers — consistent with the correlation analysis in Section 2.5.</li>
-<li>The beeswarm plot shows directional effects: more minutes and points push predictions strongly upward regardless of positional role.</li>
-<li>Key message for the client: <strong>the market prices availability and volume first</strong>. A player averaging 30 minutes per night commands a premium beyond any single stat.</li>
+<p>Overall, the model performs best for <strong>mid-tier player valuations</strong>, where salary is more directly tied to statistical performance.</p>
+<h3 id="4.4-SHAP-interpretability-(Section-3.7.1)">4.4 SHAP interpretability (Section 3.7.1)<a class="anchor-link" href="#4.4-SHAP-interpretability-(Section-3.7.1)">¶</a></h3><p>SHAP values provide interpretable explanations of the RandomForest predictions.</p>
+<ul>
+<li><strong>Minutes played (MP), games started (GS), and points scored (PTS)</strong> emerge as the most influential variables in determining predicted salary.</li>
+<li>The SHAP beeswarm plot shows that <strong>higher playing time and scoring output strongly push predictions upward</strong>, regardless of positional role.</li>
+<li>These results reinforce the earlier EDA findings and highlight an important economic insight: <strong>the NBA market strongly rewards availability and high usage</strong>.</li>
 </ul>
-<h3 id="4.5-Neural-network-behaviour-(Section-3.8.1)">4.5 Neural network behaviour (Section 3.8.1)<a class="anchor-link" href="#4.5-Neural-network-behaviour-(Section-3.8.1)">¶</a></h3><ul>
-<li>Learning curves show all MLP configurations converge cleanly and EarlyStopping intervenes before significant overfitting — expected at this sample size.</li>
-<li>Neural networks did not outperform the best classical model (best MLP MAE ≈ 4.16M vs RandomForest ≈ 3.53M), which is typical for small tabular datasets.</li>
+<h3 id="4.5-Neural-network-behaviour-(Section-3.8.1)">4.5 Neural network behaviour (Section 3.8.1)<a class="anchor-link" href="#4.5-Neural-network-behaviour-(Section-3.8.1)">¶</a></h3><p>Several MLP neural network configurations were tested using different <strong>activation functions, optimizers, and learning rates</strong>.</p>
+<p>Learning curves show stable convergence with <strong>EarlyStopping preventing overfitting</strong>. However, neural networks did <strong>not outperform the best classical model</strong>:</p>
+<ul>
+<li>Best MLP MAE about <strong>4.16M USD</strong></li>
+<li>RandomForest MAE about <strong>3.53M USD</strong></li>
 </ul>
-<h3 id="4.6-Is-the-model-optimal?">4.6 Is the model optimal?<a class="anchor-link" href="#4.6-Is-the-model-optimal?">¶</a></h3><p>Not fully. Salary is influenced by factors absent from this dataset: <strong>contract rules (rookie scale, max contracts), cap space, experience, injury history, and market dynamics</strong>. The model is a <strong>data-driven negotiation anchor</strong>, not a salary oracle.</p>
-<h3 id="4.7-Improvements-and-next-steps">4.7 Improvements and next steps<a class="anchor-link" href="#4.7-Improvements-and-next-steps">¶</a></h3><ol>
-<li>Add <strong>multi-season history and age</strong> to capture career trajectory.</li>
-<li>Add <strong>advanced metrics</strong> (usage rate, true shooting %, impact) and injury features.</li>
-<li>Use <strong>conformal prediction or quantile regression</strong> for better-calibrated intervals.</li>
-<li>Fit <strong>position-specific models</strong> to reduce heterogeneity and improve high-earner accuracy.</li>
-<li>Try <strong>XGBoost / LightGBM</strong> with thorough hyperparameter search and feature selection.</li>
+<p>This result is consistent with many studies showing that <strong>tree ensemble methods often outperform neural networks on relatively small tabular datasets</strong>.</p>
+<h3 id="4.6-Is-the-model-optimal?">4.6 Is the model optimal?<a class="anchor-link" href="#4.6-Is-the-model-optimal?">¶</a></h3><p>The model provides useful predictive insight but is <strong>not fully optimal</strong>. NBA salaries are influenced by several factors not included in the dataset, such as:</p>
+<ul>
+<li><strong>Contract rules</strong> (rookie scale, max contracts)</li>
+<li><strong>Salary cap constraints</strong></li>
+<li><strong>Years of experience</strong></li>
+<li><strong>Injury history</strong></li>
+<li><strong>team needs and market dynamics</strong></li>
+</ul>
+<p>Therefore, the model should be viewed as a <strong>data-driven negotiation anchor</strong>, not a perfect salary predictor.</p>
+<h3 id="4.7-Improvements-and-next-steps">4.7 Improvements and next steps<a class="anchor-link" href="#4.7-Improvements-and-next-steps">¶</a></h3><p>Several extensions could further improve the model:</p>
+<ol>
+<li>Add <strong>multi-season player history and age</strong> to capture career development and reduce single-season noise.</li>
+<li>Include <strong>advanced performance metrics</strong> (for example usage rate, true shooting percentage, and impact measures).</li>
+<li>Integrate <strong>availability and injury data</strong> to better reflect player reliability.</li>
+<li>Use <strong>conformal prediction or quantile regression</strong> to provide better calibrated salary prediction intervals.</li>
+<li>Evaluate <strong>gradient boosting models (XGBoost or LightGBM)</strong> with deeper hyperparameter tuning.</li>
+<li>Train <strong>position-specific models</strong> to reduce heterogeneity and improve predictions for elite players.</li>
 </ol>
-<p><strong>Data source:</strong> Kaggle NBA salary prediction dataset: <a href="https://www.kaggle.com/code/koki25ando/nba-salary-prediction-using-multiple-regression">https://www.kaggle.com/code/koki25ando/nba-salary-prediction-using-multiple-regression</a></p>
+<hr/>
+<p><strong>Data source:</strong> Kaggle NBA Salary Prediction dataset<br>
+<a href="https://www.kaggle.com/code/koki25ando/nba-salary-prediction-using-multiple-regression">https://www.kaggle.com/code/koki25ando/nba-salary-prediction-using-multiple-regression</a></br></p>
 </div>
 </div>
 </div>
